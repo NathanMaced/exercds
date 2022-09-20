@@ -2,7 +2,7 @@ package pkginterface;
 
 import javax.swing.JOptionPane;
 
-public class quizDS {
+public class DSquiz {
 int acerto=0;
 
     String x1 = JOptionPane.showInputDialog(null, "Digite a nota do primeiro");
