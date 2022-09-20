@@ -1,0 +1,59 @@
+package pkginterface;
+
+import javax.swing.JOptionPane;
+
+public class DSquiz {
+int acerto=0;
+
+    String x1 = JOptionPane.showInputDialog(null, "1ª - Qual jogador é conhecido como terror do Morumbi? \n 1-Denílson \n 2-Raí \n 3-Lucas Moura \n 4-Kaka \n 5-Amoroso");
+       double b1 = Double.parseDouble(x1);{
+       if(b1==2){
+        acerto++;
+       }
+       String x2 = JOptionPane.showInputDialog(null, "2ª - Quantos gols Rogério Ceni tem em sua carreira? \n 1-120 \n 2-117 \n 3-110 \n 4-130 \n 5-100");
+       double b2 = Double.parseDouble(x2);
+       if(b2==4){
+        acerto++;
+       }
+       String x3 = JOptionPane.showInputDialog(null, "3ª - Quem é o maior artilheiro da historia do São Paulo? \n 1-Careca \n 2-Muller \n 3-Serginho chulapa \n 4-Leônildas da Silva \n 5-França");
+       double b3 = Double.parseDouble(x3);
+       if(b3==3){
+        acerto++;
+       }
+       String x4 = JOptionPane.showInputDialog(null, "4ª - Como é conhecido o São Paulo? \n 1-Três cores \n 2-Tricolor do Morumbi \n 3-Maior de todos \n 4-Nunca rebaixado \n 5-Maior campeão internacional");
+       double b4 = Double.parseDouble(x4);
+       if(b4==2){
+        acerto++;
+       }
+       String x5 = JOptionPane.showInputDialog(null, "5ª - Quantos títulos oficias tem o São Paulo?? \n 1-58 \n 2-35 \n 3-40 \n 4-25 \n 5-65");
+       double b5 = Double.parseDouble(x5);
+       if(b5==1){
+        acerto++;
+       }
+	String x6 = JOptionPane.showInputDialog(null, "6ª - Quantos títulos oficias tem o São Paulo?? \n 1-58 \n 2-35 \n 3-40 \n 4-25 \n 5-65");
+       double b6 = Double.parseDouble(x6);
+       if(b6==1){
+        acerto++;
+       }
+	String x7 = JOptionPane.showInputDialog(null, "7ª - Quantos títulos oficias tem o São Paulo?? \n 1-58 \n 2-35 \n 3-40 \n 4-25 \n 5-65");
+       double b7 = Double.parseDouble(x7);
+       if(b7==1){
+        acerto++;
+       }
+	String x8 = JOptionPane.showInputDialog(null, "8ª - Quantos títulos oficias tem o São Paulo?? \n 1-58 \n 2-35 \n 3-40 \n 4-25 \n 5-65");
+       double b8 = Double.parseDouble(x8);
+       if(b8==1){
+        acerto++;
+       }
+	String x9 = JOptionPane.showInputDialog(null, "9ª - Quantos títulos oficias tem o São Paulo?? \n 1-58 \n 2-35 \n 3-40 \n 4-25 \n 5-65");
+       double b9 = Double.parseDouble(x9);
+       if(b9==1){
+        acerto++;
+       }
+	String x10 = JOptionPane.showInputDialog(null, "10ª - Quantos títulos oficias tem o São Paulo?? \n 1-58 \n 2-35 \n 3-40 \n 4-25 \n 5-65");
+       double b10 = Double.parseDouble(x10);
+       if(b10==1){
+        acerto++;
+       }
+       JOptionPane.showMessageDialog(null,acerto);
+}}
